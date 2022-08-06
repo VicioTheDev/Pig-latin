@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    outline: none;
+}
+:root {
+    --ombraD: 0px 0px 20px 0px rgba(0,0,0,0.4);
+}
+.head {
+    width: 100%;
+    background-color: pink;
+    height: 130px;
+    position: absolute;
+    z-index: -1;
+}
+#logo {
+    top:0px;
+    z-index: 1;
+}
+#input {
+    width:500px;
+    height:400px;
+    left:10px;
+    top:130px;
+    font-size: 25px;
+    border-radius: 2px;
+    margin:20px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+
+}
+#translate {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rgb(0, 149, 255);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    top:300px;
+    left:570px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    box-shadow: var(--ombraD);
+    transition: all 0.2s ease-in-out;
+
+}
+#translated {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    right: 370px;
+    margin:20px;
+    position: absolute;
+}
+#translate:hover {
+    transform: scale(1.11);
+}
+#translate:active {
+    transform: scale(0.99);
+}
+#translatedtext {
+    width: 200px;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    max-inline-size: 50px;
+    left:740px;
+    top:180px;
+    display: block;
+    position: absolute;
+}
+#hr {
+    top:560px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+}
