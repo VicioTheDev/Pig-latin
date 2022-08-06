@@ -62,18 +62,24 @@
     transform: scale(0.99);
 }
 #translatedtext {
-    width: 200px;
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
-    margin-block-start: 1em;
-    margin-block-end: 1px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    max-inline-size: 50px;
-    left:740px;
-    top:180px;
+    left:10px;
+    bottom: 290px;
     display: block;
+    overflow-wrap: break-word;
+}
+#translatedbox {
+    width: 800px;
+    height: 400px;
+    left:10px;
+    top:130px;
+    font-size: 25px;
+    border-radius: 2px;
+    margin:20px;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
+    left: 700px;
 }
 #hr {
     top:560px;
