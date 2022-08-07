@@ -12,3 +12,7 @@ function translatePigLatin(str) {
         return document.getElementById("translatedtext").innerHTML = newStr;
     }
 }
+
+function copy() {
+    navigator.clipboard.writeText(document.getElementById("translatedtext").innerHTML);
+}
