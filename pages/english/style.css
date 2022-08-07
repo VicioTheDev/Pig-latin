@@ -64,22 +64,10 @@
 #translatedtext {
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
-    left:10px;
-    bottom: 290px;
+    left:730px;
+    bottom: 520px;
     display: block;
-    overflow-wrap: break-word;
-}
-#translatedbox {
-    width: 800px;
-    height: 400px;
-    left:10px;
-    top:130px;
-    font-size: 25px;
-    border-radius: 2px;
-    margin:20px;
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    left: 700px;
+    word-wrap: break-word;
 }
 #hr {
     top:560px;
