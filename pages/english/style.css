@@ -63,6 +63,7 @@
     transform: scale(0.99);
 }
 #translatedtext {
+    width: 110vh;
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
     left:850px;
@@ -100,4 +101,27 @@
 }
 #copy:active {
     transform: scale(0.99);
+}
+@media screen and (max-width: 1440px) {
+    #translatedtext{
+        left: 742px;
+        width: 85vh;
+    }
+    #copy {
+        right:250px;
+        margin-top:27px;
+    }
+}
+@media screen and (max-width: 414px) {
+    #logo {
+        top:20px;
+        width: 300px;
+        position: relative;
+    }
+    #input {
+        width: 300px;
+    }
+    body {
+        width: 414px;
+    } 
 }
