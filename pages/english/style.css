@@ -7,6 +7,9 @@
 :root {
     --ombraD: 0px 0px 20px 0px rgba(0,0,0,0.4);
 }
+body {
+    height: 600px;
+}
 .head {
     width: 100%;
     background-color: pink;
@@ -101,6 +104,46 @@
 }
 #copy:active {
     transform: scale(0.99);
+}
+#wiki {
+    font-family: 'Varta', sans-serif;
+    font-size: 30px;
+    top:430px;
+    margin: 35px;
+    position: relative;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px;
+}
+.footer {
+    height: 100px;
+    background-color: pink;
+    color: black;
+}
+#make {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#cr {
+    font-size: 30px;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:visited {
+    color: rgb(0, 119, 255);
 }
 @media screen and (max-width: 1440px) {
     #translatedtext{

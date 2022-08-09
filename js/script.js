@@ -7,8 +7,7 @@ function translatePigLatin(str) {
         return document.getElementById("translatedtext").innerHTML = newStr;
     } else {
         let firstMatch = str.match(/[aeiou]/g) || 0;
-        let vowel = str.indexOf(firstMatch[0]);
-        newStr = str.substring(vowel) + str.substring(0, vowel) + "ay";
+        newStr = str.replace(/\b(\w)(\w+)\b/g, '$2$1ay');;
         return document.getElementById("translatedtext").innerHTML = newStr;
     }
 }
