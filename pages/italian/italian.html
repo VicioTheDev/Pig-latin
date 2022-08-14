@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./itscript.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <title>Pig Latin translator - Italian</title>
+</head>
+
+<body>
+    <div class="head">
+        <div id="menu"> 
+                <a href="">
+                <div class="menuT">Home</div></a>
+        </div>     
+    </div>
+    <img src="../../img/logo.png" id="logo">
+    <textarea type="text" id="input"></textarea>
+    <div id="translate" onclick="translatePigLatin(document.getElementById('input').value)">Traduci</div>
+    <div id="translated">Tradotto in Pig Latin:</div>
+    <div id="hr"></div>
+    <div id="translatedtext"></div>
+    <div id="copy" onclick="copy()">Copia Testo</div>
+    <div id="wiki">
+        <div style="font-family: 'Varta', sans-serif;
+        font-size: 18px;
+        top:15px;
+        margin-bottom: 35px;
+        left: 0px;
+        position: relative;
+        text-decoration: none">fonte: <a href="https://www.dictionary.com/e/pig-latin/">https://www.dictionary.com/e/pig-latin/</a></div>
+        <div style="font-size: 45px; margin-top: 20px; margin-bottom: 20px;">Cos'è il Pig Latin?</div>
+        Il Pig Latin non è realmente un linguaggio ma una lingua creata per gioco che i bambini (e anche alcuni adulti) usano <br> per parlare "in 
+        codice". Le parole in Pig Latin sono formate alterando le normali parole Inglesi.
+
+        <div style="font-size: 45px; margin-top: 20px; margin-bottom: 20px;">Come funziona</div> Innanzitutto, prendiamo una qualsiasi parola
+        Inglese. Useremo la parola "dictionary". Adesso, muovi la prima consonante <br>fino alla fine della parola:
+        “ictionary-d.” Quindi aggiungiamo “ay”alla fine della parola: “ictionary-day.” <br>Questo è tutto quello che bisogna fare; hai appena
+        creato una parola in Pig Latin. <br> Se volessimo fare la stessa cosa in italiano, basterebbe sostituire "ay" con "ei" ed il gioco è fatto.
+
+        <div style="font-size: 45px; margin-top: 20px; margin-bottom: 20px;">Dov'è che il Pig Latin ha preso il suo nome?</div>
+        Non sappiamo per certo da dove il Pig Latin abbia preso il suo nome, però sappiamo che il nome del <br> gioco non ha nulla a che fare con il
+        latino. È uno sbaglio di nome intenzionato. C'è una <br> menzione di esso in un articolo pubblicato alla fine del diciannovesimo secolo.
+        <br> E, ipoteticamente, fu Thomas Jefferson a comporre le parole in Pig Latin.
+
+        <div style="font-size: 45px; margin-top: 20px; margin-bottom: 20px;">Le parole in Pig Latin sono diventate parole reali?</div> 
+        Una piccola parte delle parole in Pig Latin sono adesso accettate come slang delle parole inglesi, come <br> ixnay and amscray. (Nix e
+        scram in linguaggio reale.)
+    </div>
+    <div class="wrapper">
+        <div class="push"></div>
+    </div>
+    <div class="footer"> <div id="make">Website created by Viciox -  <a href="https://viciothedev.github.io/portfolio/" style="color: rgb(0, 153, 255); cursor: pointer;">visit portfolio by clicking here</a></div> <div id="cr"> Informations about Pig Latin by: <a href="https://www.dictionary.com/e/pig-latin/" style="color: rgb(0, 153, 255); cursor: pointer;"> www.dictionary.com</a></div></div>
+</body>
+
+</html>
