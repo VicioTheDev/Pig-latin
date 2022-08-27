@@ -54,3 +54,37 @@ a:link {
     text-decoration: none;
     color: black;
 }
+@media screen and (max-width: 1366px) {
+    #select {
+        font-size: 40px;
+        justify-content: center;
+    }
+    #container {
+        justify-content:center;
+        left: auto;
+    }
+}
+@media screen and (max-width:414px) {
+    .lang {
+        font-size: 35px;
+        margin:0 50px;
+    }
+    #select {
+        font-size: 30px;
+        margin:20px;
+    }
+}
+@media screen and (max-width:360px) {
+    .lang {
+        font-size: 30px;
+        margin:0 20px;
+    }
+    #select {
+        font-size: 25px;
+        margin:10px;
+    }
+    #container {
+        left:1px;
+        width: 295px;
+    }
+}
